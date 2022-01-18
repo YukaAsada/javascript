@@ -6,6 +6,12 @@
   overflow: auto;
 }
 
+.service-margin {
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
 /*ヘッダー*/
 
 .header-main {
@@ -36,7 +42,7 @@
 /*first-view*/
 .first-view-img {
   width: 100%;
-  height: 180px;
+  height: auto;
   position: relative;
 }
 
@@ -63,4 +69,78 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
+}
+
+/*株式会社TECHの想い*/
+.second-view {
+  height: 350px;
+  background-color: rgb(29, 28, 28);
+  color: rgb(250, 250, 250);
+}
+
+.second-view-content {
+  margin: 80px 70px;
+}
+
+/*サービス*/
+
+.service-main {
+  margin: 0 auto;
+}
+
+.service-main h1 {
+  width: 100%;
+  margin: 100px auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.service-block {
+  padding: 10px auto;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  margin: 0 auto;
+}
+
+.service-first img {
+  width: 100%;
+  height: 400px;
+}
+
+.service-second img {
+  width: 100%;
+  height: 400px;
+}
+
+.service-third img {
+  width: 100%;
+  height: 400px;
+}
+
+.service-four img {
+  width: 100%;
+  height: 400px;
+}
+
+.service-btn {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 40%;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.service-btn a {
+  justify-content: space-between;
+  padding: 30px 100px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(219, 27, 27);
+}
+
+/*ニュース*/
+.news-block p {
+  display: flex;
 }
