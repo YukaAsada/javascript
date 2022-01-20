@@ -1,0 +1,72 @@
+* {
+  outline: 1px solid red !important;
+}
+
+a {
+  text-decoration: none;
+}
+/*ヘッダー*/
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-main h1 {
+  font-size: 25px;
+}
+
+.header-nav {
+  margin-top: auto;
+  margin-right: 10px;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-li {
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  padding-left: 20px;
+}
+
+/*フッター*/
+
+.footer {
+  padding: 20px 0;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  vertical-align: middle;
+}
+
+.footer-copy {
+  font-size: small;
+  margin: auto 10px;
+}
+
+.footer-ul {
+  display: flex;
+}
+
+.footer-list::before {
+  width: 1px;
+  height: 3px;
+  content: "";
+  background-color: rgb(228, 228, 228);
+}
+
+.footer-list {
+  list-style-type: none;
+  font-size: small;
+  margin: auto 10px;
+}
