@@ -162,6 +162,8 @@
 }
 
 .news-btn {
+  width: 150px;
+  height: 20px;
   display: inline-block;
   text-align: center;
   background-color: rgb(204, 6, 6);
@@ -191,4 +193,6 @@
 
 .news-content p {
   margin-top: 0;
+  margin-right: 30px;
+  margin-top: auto;
 }
