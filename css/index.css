@@ -153,7 +153,7 @@
 }
 
 .news-block-list {
-  height: 80%;
+  height: 100%;
 }
 
 .news-flex-item {
@@ -164,6 +164,8 @@
 .news-btn {
   width: 150px;
   height: 20px;
+  text-decoration: none;
+  margin-top: 30px;
   display: inline-block;
   text-align: center;
   background-color: rgb(204, 6, 6);
@@ -176,12 +178,14 @@
   text-align: left;
 }
 
-.news-content ul {
+.news-content {
   width: 100%;
+  height: 100%;
+  padding: 0;
   text-align: left;
 }
 
-.news-content li {
+.news-list {
   display: flex;
   width: 100%;
   margin-top: 10px;
@@ -189,10 +193,40 @@
   margin-right: auto;
   background-color: rgb(255, 255, 255);
   color: black;
+  line-height: normal;
 }
 
-.news-content p {
+.news-date {
   margin-top: 0;
   margin-right: 30px;
   margin-top: auto;
+}
+.news-content-font {
+  font-weight: bold;
+}
+
+/*ブログ*/
+
+.blog-main {
+  width: 100%;
+  height: 500px;
+}
+
+.blog-main h1 {
+  align-items: center;
+  padding-left: auto;
+}
+
+.blog-block {
+  width: 80%;
+  display: flex;
+  justify-items: space-between;
+}
+
+.blog-card {
+  display: block;
+}
+.blog-img {
+  width: 100%;
+  height: px;
 }
