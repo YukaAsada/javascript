@@ -309,5 +309,6 @@
   display: block;
   background-color: rgb(204, 6, 6);
   color: aliceblue;
+  text-align: center;
   align-items: center;
 }
