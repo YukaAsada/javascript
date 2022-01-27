@@ -33,9 +33,8 @@
 
 /*first-view*/
 .first-view-img {
-  width: 100%;
-  height: auto;
   position: relative;
+  margin: 0;
 }
 
 .first-view-content {
@@ -68,15 +67,17 @@
 .second-view {
   margin: 0;
   width: 100%;
-  height: 40vh;
+  height: 300px;
   background-color: rgb(29, 28, 28);
   color: rgb(250, 250, 250);
 }
 .second-view-title {
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
 }
 .second-view-content {
-  margin: auto;
+  margin: 0 100px;
 }
 /*サービス*/
 

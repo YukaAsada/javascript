@@ -1,14 +1,12 @@
-* {
-  outline: 1px solid red !important;
-}
-
 a {
   text-decoration: none;
+  color: black;
 }
 /*ヘッダー*/
 .header-main {
   display: flex;
   justify-content: space-between;
+  margin: 30px;
 }
 
 .header-main h1 {
@@ -45,7 +43,12 @@ a {
 }
 
 .sub-cooporate-title {
-  font-size: ;
+  font-size: 40px;
+  padding: 20px auto;
+}
+
+.sub-cooporate-title p {
+  font-size: 20px;
 }
 
 .coporate-btn-main {
