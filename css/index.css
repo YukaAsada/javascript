@@ -4,37 +4,10 @@
   margin-bottom: 50px;
 }
 
-/*ヘッダー*/
-
-.header-main {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-main h1 {
-  font-size: 25px;
-}
-
-.header-nav {
-  margin-top: auto;
-  margin-right: 10px;
-}
-
-.header-ul {
-  display: flex;
-  justify-content: flex-end;
-}
-.header-li {
-  font-size: 18px;
-  font-weight: bold;
-  list-style: none;
-  padding-left: 20px;
-}
-
 /*first-view*/
 .first-view-img {
   position: relative;
-  margin: 0;
+  width: 100%;
 }
 
 .first-view-content {
@@ -72,12 +45,18 @@
   color: rgb(250, 250, 250);
 }
 .second-view-title {
-  margin: 0 auto;
-  padding-top: 50px;
+  padding: 30px auto;
   text-align: center;
+  font-size: 30px;
 }
 .second-view-content {
-  margin: 0 100px;
+  margin: 0;
+  padding: 80px 80px;
+}
+
+.second-view-detail {
+  padding-top: 30px;
+  margin: 20px auto;
 }
 /*サービス*/
 
@@ -90,6 +69,7 @@
   margin: 100px auto;
   margin-bottom: 30px;
   text-align: center;
+  font-size: 30px;
 }
 
 .service-block {
@@ -138,6 +118,10 @@
   margin-left: auto;
 }
 
+.service-btn:hover {
+  background-color: rgb(209, 80, 80);
+}
+
 /*ニュース*/
 .news-container {
   width: 100%;
@@ -160,6 +144,10 @@
   display: flex;
   text-align: "";
 }
+.news-flex-item h1 {
+  font-size: 30px;
+  padding-top: 25px;
+}
 
 .news-btn {
   width: 150px;
@@ -174,6 +162,45 @@
   margin-left: auto;
 }
 
+/*hover*/
+
+.news-btn:hover {
+  background-color: rgb(206, 67, 67);
+}
+
+.news-list:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.blog-btn:hover {
+  background-color: rgb(219, 83, 83);
+}
+
+.last-about-company:hover {
+  background-color: rgb(214, 55, 55);
+}
+
+.last-about-recruit:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.coporate-btn:hover {
+  background-color: rgb(206, 67, 67);
+}
+
+.blog-img:hover {
+  opacity: 0.5;
+}
+
+.news-date:hover {
+  color: rgb(97, 97, 97);
+}
+
+.news-card-content:hover {
+  color: rgb(88, 88, 88);
+}
+
+/*hover*/
 .news-block p {
   text-align: left;
   height: 1vh;
@@ -187,8 +214,9 @@
   display: flex;
   width: 100%;
   margin-top: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
   background-color: rgb(255, 255, 255);
   color: black;
   align-items: center;
@@ -213,6 +241,7 @@
 .blog-title {
   text-align: center;
   margin: 50px auto;
+  font-size: 30px;
 }
 
 .blog-block {
@@ -282,33 +311,4 @@
   padding-bottom: 80px;
   background-color: rgb(29, 28, 28);
   color: white;
-}
-
-/*お問い合わせ*/
-
-.coporate-main {
-  width: 100%;
-  height: 50vh;
-  padding-top: 80px;
-  text-align: center;
-  background-color: rgb(230, 230, 230);
-}
-
-.coporate-title {
-  margin: 50px;
-}
-
-.coporate-btn-main {
-  width: 100%;
-  height: 20vh;
-  text-align: center;
-}
-
-.coporate-btn {
-  width: 300px;
-  height: 4vh;
-  margin: 20px auto;
-  display: block;
-  background-color: rgb(204, 6, 6);
-  color: aliceblue;
 }

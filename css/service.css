@@ -12,17 +12,28 @@
   color: rgb(41, 41, 41);
   width: 80%;
 }
+
 .service-detail {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 45%;
   color: rgb(252, 252, 252);
+  font-size: 40px;
+}
+
+.service-main {
+  margin: 100px auto;
 }
 
 .service-main-li {
   display: inline-block;
   list-style: none;
   margin: 30px auto;
+}
+
+.service-main-ul {
+  width: 70%;
+  margin: 50px auto;
 }
 
 .service-main-content {

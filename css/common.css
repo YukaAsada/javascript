@@ -27,28 +27,35 @@ a {
   font-weight: bold;
   list-style: none;
   padding-left: 20px;
+  color: black;
 }
+
+
 
 /*お問い合わせ*/
 .coporate-main {
-  width: 100%;
-  height: 50vh;
-  padding-top: 80px;
   text-align: center;
   background-color: rgb(230, 230, 230);
 }
 
 .coporate-title {
-  margin: 50px;
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
 }
+
+/*.cooporate-contact {
+  padding: 30px auto;
+}*/
 
 .sub-cooporate-title {
   font-size: 40px;
-  padding: 20px auto;
+  padding-top: 70px;
+  font-size: 35px;
 }
 
-.sub-cooporate-title p {
-  font-size: 20px;
+.sub-cooporate {
+  padding: 20px;
 }
 
 .coporate-btn-main {
@@ -57,11 +64,17 @@ a {
   text-align: center;
 }
 
+.coporate-sub {
+  padding: 30px auto;
+}
+
 .coporate-btn {
   width: 300px;
-  height: 4vh;
-  margin: 20px auto;
+  height: 30px;
+  margin: 10px auto;
+  padding-top: 15px;
   display: block;
+  align-items: center;
   background-color: rgb(204, 6, 6);
   color: aliceblue;
 }
